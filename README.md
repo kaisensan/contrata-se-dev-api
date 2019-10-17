@@ -30,9 +30,9 @@ Os formatos de request suportados são:
 * Para retornar as issues abertas de uma página específica de um repositório:
   * `GET` --> `http://localhost:4000/api/v1/github/:accountName/:repoName/:issuePage`
 
-`:accountName` Nome da conta no GitHub. Exemplo: `frontendbr`, `backend-br`, `LarissaAbreu`
+`:accountName` Nome da conta no GitHub. Exemplo: [frontendbr](https://github.com/frontendbr), [backend-br](https://github.com/backend-br), [LarissaAbreu](https://github.com/LarissaAbreu)
 
-`:repoName` Nome de um repositório da conta acima. Exemplo: `vagas` (repositório tanto do `frontendbr` quanto do `backend-br`), `contrata-se-dev` (repositório da `LarissaAbreu`)
+`:repoName` Nome de um repositório da conta acima. Exemplo: `vagas` (repositório tanto do [frontendbr](https://github.com/frontendbr/vagas) quanto do [backend-br](https://github.com/backend-br/vagas)), `contrata-se-dev` (repositório da [LarissaAbreu](https://github.com/LarissaAbreu/contrata-se-dev))
 
 `:issuePage` Número de uma das páginas de issues do repositório acima (uma vez que a API do GitHub faz paginação dos resultados)
 
@@ -68,7 +68,7 @@ Para manter uma melhor organização, seguiremos as diretrizes do [Versionamento
 
 ## Contribuição
 
-Veja no [guia](https://github.com/LarissaAbreu/contrata-se-dev/issues) os próximos passos do projeto :wink:
+Veja nesse [guia](https://github.com/LarissaAbreu/contrata-se-dev/issues/2) os próximos passos do projeto :wink:
 
 Quer contribuir? [Siga essas recomendações](https://github.com/Kaisen-san/contrata-se-dev-api/blob/master/CONTRIBUTING.md).
 
