@@ -1,0 +1,27 @@
+{
+  "name": "contrata-se-dev-api",
+  "version": "0.1.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kaisen-san/contrata-se-dev-api.git"
+  },
+  "author": "Felipe Andrade",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kaisen-san/contrata-se-dev-api/issues"
+  },
+  "homepage": "https://github.com/Kaisen-san/contrata-se-dev-api#readme",
+  "devDependencies": {
+    "nodemon": "^1.19.3"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "express": "^4.17.1"
+  }
+}
