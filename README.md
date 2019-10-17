@@ -24,7 +24,7 @@ Para manter uma melhor organização, seguiremos as diretrizes do [Versionamento
 
 ## Contribuição
 
-Veja na [guia](https://github.com/LarissaAbreu/contrata-se-dev/issues) os próximos passos do projeto ;)
+Veja no [guia](https://github.com/LarissaAbreu/contrata-se-dev/issues) os próximos passos do projeto ;)
 
 Quer contribuir? [Siga essas recomendações](https://github.com/Kaisen-san/contrata-se-dev-api/blob/master/CONTRIBUTING.md).
 
