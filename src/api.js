@@ -8,10 +8,13 @@ const allowedMethods = Object.freeze([ 'GET' ]);
 // Adding headers
 router.use(( req, res, next ) => {
   res.header( 'Access-Control-Allow-Origin', '*' );
-  res.header(
-    'Access-Control-Allow-Headers',
-    'Origin, X-Requested-With, Content-Type, Accept, Authorization'
-  );
+  res.header( 'Cache-Control', 'public, max-age=60, s-maxage=60' );
+  res.header( 'Content-Security-Policy', "default-src 'none'" );
+  res.header( 'Vary', 'Accept, Accept-Encoding' );
+  res.header( 'Referrer-Policy', 'origin-when-cross-origin, strict-origin-when-cross-origin' );
+  res.header( 'X-XSS-Protection', '1; mode=block' );
+  res.header( 'X-Content-Type-Options', 'nosniff' );
+  res.header( 'X-Frame-Options', 'deny' );
 
   if ( req.method === 'OPTIONS' ) {
     res.header( 'Access-Control-Allow-Methods', allowedMethods.toString() );
