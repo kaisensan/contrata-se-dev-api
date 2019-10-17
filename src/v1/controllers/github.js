@@ -36,7 +36,7 @@ const index = async ( account, repo ) => {
   return Promise.resolve()
     .then(() => ({
         status: 200,
-        issues
+        data: issues
       })
     );
 }
@@ -57,7 +57,7 @@ const show = async ( account, repo, issuePage ) => {
   return Promise.resolve()
     .then(() => ({
         status: 200,
-        issues
+        data: issues
       })
     );
 }
